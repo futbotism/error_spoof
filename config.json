@@ -1,0 +1,24 @@
+{
+  "services": {
+    "screening": {
+      "base": "http://localhost",
+      "paths": {
+        "countriesPath": ":5001/v1/countries",
+        "screeningsPath": ":5001/v1/screenings",
+        "singlePath": ":5000/v1/screenings/<id>",
+        "rescreenPath": ":5000/v1/screenings/screen",
+        "historyPath": ":5000/v1/screenings/<id>/history",
+        "reportsSanctionsPath": ":5000/v1/screenings/<id>/reports/ship_sanctions",
+        "reportsInspectionsPath": ":5000/v1/screenings/<id>/reports/ship_inspections",
+        "reportsCountryPath": ":5000/v1/screenings/<id>/reports/country_sanctions",
+        "reportsMovementsPath": ":5000/v1/screenings/<id>/reports/ship_movements",
+        "companySanctionsPath": ":5000/v1/screenings/<id>/reports/company_sanctions",
+        "reportPath": ":5000/v1/screenings/<id>/report",
+        "reportHistoryPath": ":5000/v1/screenings/<screening_id>/history/<history_id>/report",
+        "bulkPath": ":5000/v1/screenings/_bulk",
+        "bulkSinglePath": ":5000/v1/screenings/_bulk/<id>",
+        "shipTypesPath": ":5000/v1/ship_types"
+      }
+    }
+  }
+}

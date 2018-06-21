@@ -1,0 +1,31 @@
+# Misc #
+
+# Logs
+logs
+*.log*
+
+# Node Files #
+/node_modules
+npm-debug.log
+
+# Coverage #
+/coverage
+/config/test-user.js
+
+# Dist #
+/dist
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+.webpack.json
+
+.awcache/
+
+# IDE
+src/idea
+.idea/
+.vscode/
+.jsbeautifyrc
