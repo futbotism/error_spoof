@@ -34,11 +34,7 @@ function send500() {
 function send400() {
   throw new HttpException({
     errors: [{
-      title: '404 with countries',
-      status: 0,
-      class: 'some stuff',
-    }, {
-      title: 'some 400 ba request',
+      title: 'There was an error with your request',
       status: 0,
       class: 'some stuff',
     }],
